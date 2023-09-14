@@ -366,6 +366,7 @@ section {
     background: var(--color-secondary);
     transition: 0.3s;
   }
+      
 
   .navbar .dropdown ul li {
     min-width: 200px;
@@ -404,7 +405,9 @@ section {
     right: 0;
     padding: 10px;
     display: flex;
-  }
+    width: 800px; /* Adjust the width as needed */
+    height: 400px;
+}
 
   .navbar .megamenu ul li {
     flex: 1;
